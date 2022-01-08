@@ -19,7 +19,10 @@ function Navbar() {
     )
 }
 const NavbarContainer = styled.nav`
-    
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;

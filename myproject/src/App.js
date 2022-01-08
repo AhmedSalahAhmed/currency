@@ -10,10 +10,12 @@ import {
 } from "react-router-dom";
 import Exchange from "./components/exchange/Exchange";
 import Ex from "./components/exchange/Ex";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
   <Router>
+    <Navbar/>
     <Sidebar/>
     <Switch>
       <Route exact path="/">
@@ -35,10 +37,6 @@ function App() {
   );
 }
 
-const Container = styled.div`
-  display:flex;
-  height: 97vh;
-  border-radius: 2rem;
-`;
+
 
 export default App;

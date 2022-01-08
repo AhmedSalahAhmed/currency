@@ -11,7 +11,7 @@ import Invoices from './Invoices';
 function MainContent() {
     return (
         <Container>
-            <Navbar />
+
             <SubContainer>
                 <SectionOne>
                     <ColumnOne1>
@@ -52,7 +52,8 @@ flex-direction: column;
 
     border-bottom-right-radius: 2rem;
     border-top-right-radius: 2rem;
-    margin: 1rem 8rem 1rem 4rem;
+    margin: 0 8rem 1rem 4rem;
+    padding-top: 4rem;
     
 `;
 const SubContainer = styled.div`

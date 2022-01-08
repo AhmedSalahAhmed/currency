@@ -39,7 +39,7 @@ const rows = [
 
 function Exchange() {
     return (
-        <div style={{ height: 600, width: '80%' ,direction: 'rtl'}}>
+        <div style={{ height: 600, width: '80%' ,direction: 'rtl',paddingTop: '4rem'}}>
       <DataGrid
         rows={rows}
         columns={columns}
