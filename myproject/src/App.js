@@ -9,6 +9,8 @@ import {
   Route
 } from "react-router-dom";
 import Exchange from "./components/exchange/Exchange";
+import Transfer from "./components/transfer/Transfer";
+import Reports from "./components/reports/Reports";
 import Ex from "./components/exchange/Ex";
 import Navbar from "./components/Navbar";
 
@@ -23,6 +25,12 @@ function App() {
       </Route>
       <Route path="/exchange">
         <Exchange/>
+      </Route>
+      <Route path="/transfer">
+        <Transfer/>
+      </Route>
+      <Route path="/reports">
+        <Reports/>
       </Route>
       <Route path="/ex/:userId">
         <Ex/>

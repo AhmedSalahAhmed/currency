@@ -32,14 +32,21 @@ function Sidebar() {
                     <h3>الإحصائيات </h3>
                     </Mylink>
                     </Link>
-                    <Mylink>
+                    <Link to={"/transfer"}>
+                        
+                    <Mylink> 
                     <FaWallet/>
                     <h3>تبديل عملة </h3>
                     </Mylink>
-                    <Mylink>
-                    <RiFileCopyLine/>
-                    <h3>التقارير </h3>
-                    </Mylink>
+                    </Link> 
+                    <Link to={"/reports"}>
+                        
+                        <Mylink> 
+                        <RiFileCopyLine/>
+                        <h3> التقارير </h3>
+                        </Mylink>
+                        </Link>
+                    
                 </Links>
                 <CantactConainer>
                 <span>لديك مشكلة؟</span>
@@ -50,6 +57,7 @@ function Sidebar() {
         </Container>
     )
 }
+
 const Container = styled.div`
     
     width: 18%;
