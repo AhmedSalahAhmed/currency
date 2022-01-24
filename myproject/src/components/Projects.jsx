@@ -12,8 +12,8 @@ function Projects() {
                   <img src={AvatarImage}/>
               </Avatar>
               <Detail>
-                  <Title>Logo design for bakery</Title>
-                  <SubTitle>1 Day remaining</SubTitle>
+                  <Title>حصل البنك على اعلى نسبة توريد عملة صعبة </Title>
+                  <SubTitle>في هذا الشهر</SubTitle>
               </Detail>
           </Project>
           <Project>
@@ -21,11 +21,11 @@ function Projects() {
                   <img src={AvatarImage}/>
               </Avatar>
               <Detail>
-                  <Title>Logo design for bakery</Title>
-                  <SubTitle>1 Day remaining</SubTitle>
+                  <Title>حصل البنك على اعلى معدل ايراد يومي</Title>
+                  <SubTitle>في السنة السابقة</SubTitle>
               </Detail>
           </Project>
-          <AllProjects>See All Projects</AllProjects>
+          <AllProjects>See All Notifications</AllProjects>
       </YourProjects>
     )
 }
